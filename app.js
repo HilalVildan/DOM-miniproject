@@ -1,6 +1,6 @@
 const baslik = document.querySelector(".image");
-baslik.onmouseover = () => { baslik.src="./img/aslan1.jpeg"} 
-baslik.onmouseout = () => { baslik.src = "./img/aslan2.jpeg"}
+baslik.onmouseover = () => { baslik.src="./img/telephone-167068__340.jpeg"} 
+baslik.onmouseout = () => { baslik.src = "./img/telephone-450639__340.jpeg"}
 
 
 const btn1 = document.querySelector(".btn-outline-warning");
