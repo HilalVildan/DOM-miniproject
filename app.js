@@ -1,25 +1,26 @@
 const baslik = document.querySelector(".image");
-baslik.onmouseover = () => { baslik.src="./img/telephone-167068__340.jpeg"} 
-baslik.onmouseout = () => { baslik.src = "./img/telephone-450639__340.jpeg"}
-
+baslik.onmouseover = () => {
+  baslik.src = "./img/telephone-167068__340.jpeg";
+};
+baslik.onmouseout = () => {
+  baslik.src = "./img/telephone-450639__340.jpeg";
+};
 
 const btn1 = document.querySelector(".btn-outline-warning");
 const btn2 = document.querySelector(".btn-outline-primary");
 const btn3 = document.querySelector(".btn-outline-danger");
 const audio = new Audio("./img/retro-ringtone .mp3");
 
-btn1.onclick = () =>{
-    audio.play();
-    baslik.src = "./img/img.gif"
-
-}
+btn1.onclick = () => {
+  audio.play();
+  baslik.src = "./img/img.gif";
+};
 
 btn2.onclick = () => {
-    audio.pause();
-    baslik.src = "./img/telbağla.gif"
-
-}
+  audio.pause();
+  baslik.src = "./img/telbağla.gif";
+};
 
 btn3.onclick = () => {
-    baslik.src = "./img/telefon.gif"
-}
+  baslik.src = "./img/telefon.gif";
+};
